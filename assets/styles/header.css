@@ -1,0 +1,80 @@
+.cabecalho {
+    background: var(--preto-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em 0;
+}
+
+.cabecalho__titulo {
+    color: var(--branco-secundario);
+    font-family: var(--fonte-bold);
+    font-size: 28px;
+    margin-right: 8em;
+}
+
+
+/* HEADER - MENU DE NACEGAÇÃO */
+.menu__lista {
+    display: flex;
+    margin-right: 2em;
+}
+
+.menu__link {
+    color: var(--branco-secundario);
+    font-family: var(--fonte-regular);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+}
+
+
+/* HEADER - REDES SOCIAIS */
+
+.menu__rede-social{
+    display: flex;
+    gap: 20px;
+}
+
+.rede-social__icon {
+    background-position: center;          /*CENTRALIZAR OS ICONES NA VERTICAL*/
+    background-repeat: no-repeat;         /*NÃO REPETIR O BACKGROUND*/
+    height: 18px;
+    width: 18px;
+    display: inline-block;                /*FICAR EM UMA NOVA LINHA E SOFRER AJUSTE DE ALTURA E LARGURA*/
+}
+
+.facebook {
+    background-image: url(../imgs/LogoFacebook.svg);
+}
+
+.twitter {
+    background-image: url(../imgs/LogoTwitter.svg);
+}
+
+.instagram {
+    background-image: url(../imgs/LogoInstagram.svg);
+}
+
+
+/*HEADER - HOVERS*/
+.cabecalho__titulo:hover, .menu__link:hover {
+    color: var(--laranja-destaque);
+    transition: 0.4s ease;
+}
+
+.facebook:hover {
+    background-image: url(../imgs/LogoFacebook-Hover.svg);
+    transition: 0.4s ease;
+}
+
+.twitter:hover {
+    background-image: url(../imgs/LogoTwitter-Hover.svg);
+    transition: 0.4s ease;
+}
+
+.instagram:hover{
+    background-image: url(../imgs/LogoInstagram-Hover.svg);
+    transition: 0.4s ease;
+}

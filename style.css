@@ -1,3 +1,6 @@
+@import url(./assets/styles/reset.css);
+@import url(./assets/styles/header.css);
+
 @font-face {
     font-family: 'Plain Regular';
     src: url(./assets/fonts/Plain-Regular.woff) format(woff), 
@@ -22,10 +25,19 @@
     font-style: normal;
 }
 
-@import url(./assets/styles.css/reset.css);
-
 :root {
     --fonte-regular: 'Plain Regular', sans-serif;
     --fonte-light: 'Plain Light', sans-serif;
     --fonte-bold: 'Plain Bold', sans-serif;
+    --preto-principal: #171819;
+    --branco-secundario: #FFFFFF;
+    --laranja-destaque: #f13a11;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+a:visited {
+    text-decoration: none;
 }
