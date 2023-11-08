@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Plain Regular';
+    src: url(./assets/fonts/Plain-Regular.woff) format(woff), 
+        url(./assets/fonts/Plain-Regular.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plain Light';
+    src: url(./assets/fonts/Plain-Light.woff) format(woff), 
+        url(./assets/fonts/Plain-Light.woff2) format(woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plain Bold';
+    src: url(./assets/fonts/Plain-Bold.woff) format(woff), 
+        url(./assets/fonts/Plain-Bold.woff2) format(woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@import url(./assets/styles.css/reset.css);
+
+:root {
+    --fonte-regular: 'Plain Regular', sans-serif;
+    --fonte-light: 'Plain Light', sans-serif;
+    --fonte-bold: 'Plain Bold', sans-serif;
+}
