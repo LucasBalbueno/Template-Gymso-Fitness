@@ -1,5 +1,6 @@
 @import url(./assets/styles/reset.css);
 @import url(./assets/styles/header.css);
+@import url(./assets/styles/banner.css);
 
 @font-face {
     font-family: 'Plain Regular';
@@ -32,6 +33,7 @@
     --preto-principal: #171819;
     --branco-secundario: #FFFFFF;
     --laranja-destaque: #f13a11;
+    --cinza-texto: #909090;
 }
 
 a:link {

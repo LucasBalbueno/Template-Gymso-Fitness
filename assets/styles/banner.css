@@ -1,0 +1,29 @@
+.banner {
+    background-image: url(../imgs/hero-bg.jpg);
+    height: calc(100vh - 76px);   /*A FUNÇÃO CALC() SERVE PARA O HEADER NÃO OCUPAR O ESPAÇO DA TELA, EMPURRANDO A IMAGEM PARA BAIO*/
+}
+
+.banner__filtro {
+    background-color: var(--preto-principal);
+    height: calc(100vh - 76px);
+    opacity: 0.9;
+}
+
+.banner__texto{
+    font-family: var(--fonte-regular);
+    color: var(--cinza-texto);
+    font-size: 22px;
+}
+
+.banner__titulo{
+    font-family: var(--fonte-bold);
+    color: var(--branco-secundario);
+    font-size: 48px;
+}
+
+.banner__botoes-secundario, .banner__botoes-principal{
+    font-family: var(--fonte-regular);
+    color: var(--branco-secundario);
+    text-transform: uppercase;
+    text-decoration: none;
+}
