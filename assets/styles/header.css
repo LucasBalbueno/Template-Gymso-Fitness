@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     padding: 1.5em 0;
+    /* position: fixed;
+    z-index: 999; */
 }
 
 .cabecalho__titulo {
@@ -14,7 +16,7 @@
 }
 
 
-/* HEADER - MENU DE NACEGAÇÃO */
+/*HEADER - MENU DE NAVEGAÇÃO*/
 .menu__lista {
     display: flex;
     margin-right: 2em;
@@ -30,8 +32,7 @@
 }
 
 
-/* HEADER - REDES SOCIAIS */
-
+/*HEADER - REDES SOCIAIS*/
 .menu__rede-social{
     display: flex;
     gap: 20px;

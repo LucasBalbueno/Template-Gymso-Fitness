@@ -1,29 +1,67 @@
+/*BANNER - BACKGROUND IMAGEM*/
 .banner {
     background-image: url(../imgs/hero-bg.jpg);
-    height: calc(100vh - 76px);   /*A FUNÇÃO CALC() SERVE PARA O HEADER NÃO OCUPAR O ESPAÇO DA TELA, EMPURRANDO A IMAGEM PARA BAIO*/
+    height: calc(100vh -76px);   /*A FUNÇÃO CALC() SERVE PARA O HEADER NÃO OCUPAR O ESPAÇO DA TELA, EMPURRANDO A IMAGEM PARA BAIO*/
+    background-size: cover;      /*PARA A IMAGEM DE FUNDO CABER DENTRO DA SECTION E NÃO FICAR COM ESPAÇOS EM BRANCO NA VOLTA*/
+    background-position: top;    /*CENTRALIZA A IMAGEM QUANDO A TELA MUDA DE TAMANHO*/
+    background-repeat: no-repeat;
+    /* vertical-align: middle; */
 }
 
+
+/*BANNER - BACKGROUND FILTRO*/
 .banner__filtro {
     background-color: var(--preto-principal);
     height: calc(100vh - 76px);
     opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
+
+/*BANNER - TEXTOS*/
 .banner__texto{
     font-family: var(--fonte-regular);
     color: var(--cinza-texto);
     font-size: 22px;
+    margin-bottom: 1.5em;
 }
 
 .banner__titulo{
     font-family: var(--fonte-bold);
     color: var(--branco-secundario);
     font-size: 48px;
+    margin-bottom: 1.3em;
+    line-height: 1.3em;
 }
 
+
+/*BANNER - BOTÕES*/
 .banner__botoes-secundario, .banner__botoes-principal{
-    font-family: var(--fonte-regular);
+    font-family: var(--fonte-light);
     color: var(--branco-secundario);
     text-transform: uppercase;
     text-decoration: none;
+    padding: 1em 2em;
+}
+
+.banner__botoes-principal {
+    color: var(--laranja-destaque);
+    border: 1px solid var(--laranja-destaque);
+    border-radius: 2px;
+    margin-left: 1em;
+}
+
+/*BANNER - HOVERS*/
+.banner__botoes-secundario:hover {
+    color: var(--laranja-destaque);
+    transition: 0.4s ease;
+}
+
+.banner__botoes-principal:hover{
+    background-color: var(--branco-secundario);
+    border: none;
+    transition: 0.4s ease;
 }
