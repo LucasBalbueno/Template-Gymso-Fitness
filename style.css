@@ -1,6 +1,7 @@
 @import url(./assets/styles/reset.css);
 @import url(./assets/styles/header.css);
 @import url(./assets/styles/banner.css);
+@import url(./assets/styles/horarios.css);
 
 @font-face {
     font-family: 'Plain Regular';
@@ -34,6 +35,8 @@
     --branco-secundario: #FFFFFF;
     --laranja-destaque: #f13a11;
     --cinza-texto: #909090;
+    --cinza-secundario: #666262;
+    --cinza-links: #404040;
 }
 
 a:link {
