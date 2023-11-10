@@ -1,14 +1,14 @@
 .valores__horarios {
     background-color: var(--preto-principal);
     display: flex;
-
 }
+
 .valores__titulo {
     color: var(--branco-secundario);
     font-family: var(--fonte-bold);
     font-size: 36px;
-
 }
+
 .valores__texto {
     color: var(--branco-secundario);
     font-family: var(--fonte-regular);
@@ -16,24 +16,20 @@
     margin: 1em 0;
 }
 
-.valores__texto__link {
-    margin-bottom: 2em 1.5em;
-}
-
 .valores__texto__link, .link__tooplate  {
     color: var(--cinza-secundario);
     font-family: var(--fonte-light);
     font-size: 18px;
-    
+    margin-bottom: 1em;
 }
+
 .link__tooplate {
     color: var(--cinza-links);
 }
+
 .valores__botao {
     background-color: var(--laranja-destaque);
     font-family: var(--fonte-regular);
     font-size: 14px;
     color: var(--branco-secundario);
-    /* padding: 1em 8em ; */
-     margin-top: 100px 200px;
 }
