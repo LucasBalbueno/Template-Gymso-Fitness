@@ -1,5 +1,13 @@
 .sobre__nos {
     background: var(--branco-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6em;
+}
+
+.texto__sobre__nos{
+    margin-right: 7em;
 }
 
 .sobre__nos__titulo {
@@ -13,23 +21,36 @@
     color: var(--cinza-secundario);
     font-family: var(--fonte-light);
     font-size: 18px;
+    line-height: 1.5em;
 }
+
 .sobre__nos__link {
+    font-family: var(--fonte-regular);
     color: var(--cinza-links);
 }
 
+.sobre__nos__link:hover {
+    color: var(--laranja-destaque);
+    transition: 0.4s ease;
+}
+
+.container__instrutores{
+    display: flex;
+    gap: 2em;
+}
+
 .instrutor__imagem{
-    width: 287px;
+    width: 13.5em;
 }
 
 .instrutor__box{
     background: var(--branco-secundario);
     display: flex;
     justify-content: space-between;
-    width: 255px;
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     border-radius: 0 0 2px 2px;
-    padding: 1.5em;
+    padding: 1.5em 1.5em 1em 1em;
+    width: 11em;
 }
 
 .instrutor__titulo{
@@ -42,26 +63,36 @@
     color: var(--cinza-forte);
     font-family: var(--fonte-light);
     font-size: 16px;
+    margin-top: 0.3em;
 }
 
 .rede-social__item{
     list-style-type: none;
 }
 
-.instrutor__twitter{
-    background-image: url(../imgs/LogoTwitter-Hover.svg);
+.instrutor__twitter, .instrutor__instagram{
     background-position: center;          /*CENTRALIZAR OS ICONES NA VERTICAL*/
     background-repeat: no-repeat;         /*NÃO REPETIR O BACKGROUND*/
     height: 18px;
     width: 18px;
     display: inline-block; 
+    margin-bottom: 0.5em;
 }
 
 .instrutor__instagram{
+    background-image: url(../imgs/LogoInstagram-Cinza.svg);
+}
+
+.instrutor__instagram:hover {
     background-image: url(../imgs/LogoInstagram-Hover.svg);
-    background-position: center;          /*CENTRALIZAR OS ICONES NA VERTICAL*/
-    background-repeat: no-repeat;         /*NÃO REPETIR O BACKGROUND*/
-    height: 18px;
-    width: 18px;
-    display: inline-block; 
+    transition: 0.4s ease;
+}
+
+.instrutor__twitter {
+    background-image: url(../imgs/LogoTwitter-Cinza.svg);
+}
+
+.instrutor__twitter:hover {
+    background-image: url(../imgs/LogoTwitter-Hover.svg);
+    transition: 0.4s ease;
 }

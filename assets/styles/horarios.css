@@ -1,9 +1,8 @@
 .valores__horarios {
     background-color: var(--preto-principal);
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 5em 10em;
+    padding: 6em 0;
 }
 
 
@@ -18,13 +17,15 @@
     font-family: var(--fonte-regular);
     font-size: 22px;
     margin: 1em 0;
+    line-height: 1.5em;
 }
 
 .valores__texto__link, .link__tooplate  {
     color: var(--cinza-secundario);
     font-family: var(--fonte-light);
     font-size: 18px;
-    margin-bottom: 3em ;
+    margin-bottom: 3em;
+    line-height: 1.5em;
 }
 
 .link__tooplate {
@@ -60,7 +61,7 @@
 }
 .horarios {
     border-left: 1px solid var(--cinza-secundario);
-    margin-left: 5em;
+    margin: 0 0 4em 5em;
     padding-left: 3em;
     
 }
