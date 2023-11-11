@@ -1,15 +1,67 @@
+.sobre__nos {
+    background: var(--branco-fundo);
+}
 
 .sobre__nos__titulo {
     color: var(--cinza-forte);
     font-family: var(--fonte-bold);
     font-size: 36px;
+    margin-bottom: 0.7em;
 }
+
 .sobre__nos__texto {
     color: var(--cinza-secundario);
     font-family: var(--fonte-light);
     font-size: 18px;
-    margin-top: 1em ;
 }
 .sobre__nos__link {
     color: var(--cinza-links);
+}
+
+.instrutor__imagem{
+    width: 287px;
+}
+
+.instrutor__box{
+    background: var(--branco-secundario);
+    display: flex;
+    justify-content: space-between;
+    width: 255px;
+    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+    border-radius: 0 0 2px 2px;
+    padding: 1.5em;
+}
+
+.instrutor__titulo{
+    color: var(--cinza-forte);
+    font-family: var(--fonte-bold);
+    font-size: 28px;
+}
+
+.instrutor__texto {
+    color: var(--cinza-forte);
+    font-family: var(--fonte-light);
+    font-size: 16px;
+}
+
+.rede-social__item{
+    list-style-type: none;
+}
+
+.instrutor__twitter{
+    background-image: url(../imgs/LogoTwitter-Hover.svg);
+    background-position: center;          /*CENTRALIZAR OS ICONES NA VERTICAL*/
+    background-repeat: no-repeat;         /*NÃO REPETIR O BACKGROUND*/
+    height: 18px;
+    width: 18px;
+    display: inline-block; 
+}
+
+.instrutor__instagram{
+    background-image: url(../imgs/LogoInstagram-Hover.svg);
+    background-position: center;          /*CENTRALIZAR OS ICONES NA VERTICAL*/
+    background-repeat: no-repeat;         /*NÃO REPETIR O BACKGROUND*/
+    height: 18px;
+    width: 18px;
+    display: inline-block; 
 }
