@@ -1,0 +1,15 @@
+
+.sobre__nos__titulo {
+    color: var(--cinza-forte);
+    font-family: var(--fonte-bold);
+    font-size: 36px;
+}
+.sobre__nos__texto {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-light);
+    font-size: 18px;
+    margin-top: 1em ;
+}
+.sobre__nos__link {
+    color: var(--cinza-links);
+}

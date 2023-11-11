@@ -1,7 +1,7 @@
 /*BANNER - BACKGROUND IMAGEM*/
 .banner {
     background-image: url(../imgs/hero-bg.jpg);
-    height: calc(100vh -76px);   /*A FUNÇÃO CALC() SERVE PARA O HEADER NÃO OCUPAR O ESPAÇO DA TELA, EMPURRANDO A IMAGEM PARA BAIO*/
+    height:100vh ;   /*A FUNÇÃO CALC() SERVE PARA O HEADER NÃO OCUPAR O ESPAÇO DA TELA, EMPURRANDO A IMAGEM PARA BAIO*/
     background-size: cover;      /*PARA A IMAGEM DE FUNDO CABER DENTRO DA SECTION E NÃO FICAR COM ESPAÇOS EM BRANCO NA VOLTA*/
     background-position: top;    /*CENTRALIZA A IMAGEM QUANDO A TELA MUDA DE TAMANHO*/
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 /*BANNER - BACKGROUND FILTRO*/
 .banner__filtro {
     background-color: var(--preto-principal);
-    height: calc(100vh - 76px);
+    height: 100vh;
     opacity: 0.9;
     display: flex;
     flex-direction: column;
