@@ -40,7 +40,7 @@
 }
 
 .instrutor__imagem{
-    width: 13.5em;
+    width: 16em;
 }
 
 .instrutor__box{
@@ -50,7 +50,7 @@
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     border-radius: 0 0 2px 2px;
     padding: 1.5em 1.5em 1em 1em;
-    width: 11em;
+    width: 13.5em;
 }
 
 .instrutor__titulo{
