@@ -1,0 +1,46 @@
+
+.container__tabela {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    background-color: var(--preto-principal);
+
+}
+.tabela__dias {
+    background-color: var(--laranja-destaque);
+    color: var(--branco-secundario);
+    font-family: var(--fonte-bold);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    border-left: 1px solid rgb(33, 33, 34);
+}
+.tabela__horario__vertical {
+    background-color: var(--laranja-destaque);
+    color: var(--branco-secundario);
+    font-family: var(--fonte-regular);
+    font-size: 14px;
+    border-top: 1px solid rgb(33, 33, 34) ;
+    text-align: center;
+}
+.tabela__corpo {
+    border: 1px solid #212122;
+    padding: 1em 1.5em;
+    align-content: center;
+    text-align: center;
+}
+.tabela__nome__atividade {
+    color: var(--branco-secundario);
+    font-family: var(--fonte-bold);
+    font-size: 16px;
+    
+
+}
+.tabela__horario_aulas {
+    color: var(--cinza-texto);
+    font-family: var(--fonte-light);
+    font-size: 14px;
+    line-height: 2em;
+
+}
