@@ -23,6 +23,7 @@
     font-size: 14px;
     border-top: 1px solid rgb(33, 33, 34) ;
     text-align: center;
+    padding: 1em;
 }
 .tabela__corpo {
     border: 1px solid #212122;
@@ -52,6 +53,7 @@
     font-size: 22px;
     text-align: center;
     font-family: var(--fonte-light);
+    margin-bottom: 0.5em;
 }
 .titulo__tabela {
     color: var(--branco-secundario);
