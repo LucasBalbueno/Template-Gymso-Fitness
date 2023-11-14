@@ -42,5 +42,20 @@
     font-family: var(--fonte-light);
     font-size: 14px;
     line-height: 2em;
-
+    
+}
+.container__tabela {
+    padding: 6em ;
+}
+.subtitulo__tabela {
+    color: var(--cinza-texto);
+    font-size: 22px;
+    text-align: center;
+    font-family: var(--fonte-light);
+}
+.titulo__tabela {
+    color: var(--branco-secundario);
+    font-size: 36px;
+    font-family: var(--fonte-bold);
+    margin-bottom: 1.5em;
 }
