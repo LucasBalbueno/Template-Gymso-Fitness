@@ -1,12 +1,12 @@
-
 .container__tabela {
     display: flex;
     align-items: center;
     justify-content:center ;
     flex-direction: column;
     background-color: var(--preto-principal);
-
+    padding: 8em;
 }
+
 .tabela__dias {
     background-color: var(--laranja-destaque);
     color: var(--branco-secundario);
@@ -16,28 +16,39 @@
     padding: 1em 2em;
     border-left: 1px solid rgb(33, 33, 34);
 }
+
 .tabela__horario__vertical {
     background-color: var(--laranja-destaque);
     color: var(--branco-secundario);
     font-family: var(--fonte-regular);
     font-size: 14px;
     border-top: 1px solid rgb(33, 33, 34) ;
+    padding: 1em 1.5em;
     text-align: center;
-    padding: 1em;
 }
+
+.tabela__horario {
+    position: relative;
+    top: 1em;
+}
+
 .tabela__corpo {
     border: 1px solid #212122;
     padding: 1em 1.5em;
     align-content: center;
     text-align: center;
 }
+
+.corpo__borda {
+    border-right: none;
+}
+
 .tabela__nome__atividade {
     color: var(--branco-secundario);
     font-family: var(--fonte-bold);
     font-size: 16px;
-    
-
 }
+
 .tabela__horario_aulas {
     color: var(--cinza-texto);
     font-family: var(--fonte-light);
@@ -45,9 +56,7 @@
     line-height: 2em;
     
 }
-.container__tabela {
-    padding: 6em ;
-}
+
 .subtitulo__tabela {
     color: var(--cinza-texto);
     font-size: 22px;
@@ -55,9 +64,10 @@
     font-family: var(--fonte-light);
     margin-bottom: 0.5em;
 }
+
 .titulo__tabela {
     color: var(--branco-secundario);
     font-size: 36px;
     font-family: var(--fonte-bold);
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
 }
