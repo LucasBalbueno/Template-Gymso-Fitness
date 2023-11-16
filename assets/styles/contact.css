@@ -1,0 +1,66 @@
+.container__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    padding: 7em 10em
+}
+
+.informacoes__formulario {
+    display: block;
+}
+
+.contact__local-icon{
+    height: 18px;
+    margin-right: 0.5em;
+}
+
+.contact__titulo{
+    color: var(--cinza-forte);
+    font-family: var(--fonte-bold);
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+.mapa__texto {
+    color: var(--cinza-secundario);
+    font-size: 18px;
+    font-family: var(--fonte-regular);
+    margin-bottom: 4em;
+    line-height: 1.5em;
+}
+
+.mapa {
+    width: 30em;
+    height: 15em;
+}
+
+.informacoes__formulario {
+    border: 1px solid var(--branco-bordas);
+    border-radius: 2px;
+    padding: 1em;
+    width: 32em;
+    line-height: 1.5;
+    color: var(--cinza-placeholder);
+    margin-bottom: 1.5em;
+}
+
+.informacoes__formulario::placeholder {
+    font-family: var(--fonte-regular);
+    font-size: 16px;
+}
+
+.informacoes__botao {
+    background-color: var(--preto-principal);
+    padding: 1em;
+    width: 28.5em;
+    color: var(--branco-secundario);
+    font-family: var(--fonte-regular);
+    font-size: 16px;
+    border: none;
+}
+
+.informacoes__botao:hover {
+    background-color: var(--laranja-destaque);
+    transition: 0.4s ease;
+}

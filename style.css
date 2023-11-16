@@ -5,6 +5,7 @@
 @import url(./assets/styles/aboutUs.css);
 @import url(./assets/styles/classes.css);
 @import url(./assets/styles/tabela.css);
+@import url(./assets/styles/contact.css);
 
 @font-face {
     font-family: 'Plain Regular';
@@ -42,6 +43,8 @@
     --cinza-links: #404040;
     --cinza-forte: #212529;
     --branco-fundo: #F9F9F9;
+    --branco-bordas: #ced4da;
+    --cinza-placeholder: #495057;
 }
 
 a:link {

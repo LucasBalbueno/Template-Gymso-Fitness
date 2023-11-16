@@ -71,3 +71,10 @@
     font-family: var(--fonte-bold);
     margin-bottom: 2em;
 }
+
+.calendario{
+    background-image: url(../imgs/CalendarioIcon.svg);
+    background-position: center;          /*CENTRALIZAR OS ICONES NA VERTICAL*/
+    background-repeat: no-repeat;         /*NÃO REPETIR O BACKGROUND*/
+    background-size: 16px;
+}

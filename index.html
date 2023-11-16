@@ -153,13 +153,14 @@
         <section class="container__tabela">
             <div>    
                 <h3 class="subtitulo__tabela">our weekly GYM schedules</h3>
-                <h2 class="titulo__tabela">Workout Timetable</h2>
+                <h1 class="titulo__tabela">Workout Timetable</h1>
             </div>
             <div>
                 <table class="tabela__quadro__horario">
                     <thead>
                         <tr>
-                            <th class="tabela__dias"></th>
+                            <!-- <th class="tabela__dias"><img class="calendario" src="./assets/imgs/CalendarioIcon.svg" alt="Calendario Icone"></th> -->
+                            <th class="tabela__dias calendario"></th>
                             <th class="tabela__dias">Mon</th>
                             <th class="tabela__dias">Tue</th>
                             <th class="tabela__dias">Wed</th>
@@ -258,13 +259,26 @@
                             </td>
                         </tr>
                     </tbody>
-
                 </table>
             </div>
         </section>
 
+        <section class="container__contact">
+            <div class="contact__informacoes">
+                <h1 class="contact__titulo">Feel free to ask anything</h1>
+                <form>
+                    <input class="informacoes__formulario" type="text" name="nome" placeholder="Name">
+                    <input class="informacoes__formulario" type="email" name="email" placeholder="Email">
+                    <textarea class="informacoes__formulario name="message" rows="5" placeholder="Message"></textarea>
+                    <button class="informacoes__botao" type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact__mapa">
+                <h1 class="contact__titulo">Where you can find us</h1>
+                <p class="mapa__texto"><img class="contact__local-icon" src="./assets/imgs/LocalIcon.svg" alt="Icone de Localização">120-240 Rio de Janeiro - State of Rio de Janeiro, Brazil</p>
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7917771862517!2d-51.22146782355735!3d-30.04283103120324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1699999249354!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </main>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7917771862517!2d-51.22146782355735!3d-30.04283103120324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1699999249354!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
  </body>
 </html>
