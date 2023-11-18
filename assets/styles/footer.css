@@ -1,0 +1,24 @@
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 30em;
+    border-top: 1px solid var(--cinza-bordas);
+}
+
+.rodape__contato {
+    display: flex;
+    align-items: center;
+}
+
+.direitos__texto, .contato__texto {
+    font-family: var(--fonte-light);
+    font-size: 16px;
+    color: var(--cinza-secundario);
+    line-height: 1.5em;
+    margin-right: 1em;
+}
+
+.contato__imagem {
+    height: 13px;
+    margin-right: 0.5em;
+}

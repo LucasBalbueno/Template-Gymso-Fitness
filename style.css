@@ -6,6 +6,7 @@
 @import url(./assets/styles/classes.css);
 @import url(./assets/styles/tabela.css);
 @import url(./assets/styles/contact.css);
+@import url(./assets/styles/footer.css);
 
 @font-face {
     font-family: 'Plain Regular';
@@ -45,6 +46,11 @@
     --branco-fundo: #F9F9F9;
     --branco-bordas: #ced4da;
     --cinza-placeholder: #495057;
+    --cinza-bordas: #efebeb;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a:link {

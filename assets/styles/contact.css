@@ -25,9 +25,11 @@
 .mapa__texto {
     color: var(--cinza-secundario);
     font-size: 18px;
-    font-family: var(--fonte-regular);
-    margin-bottom: 4em;
+    font-family: var(--fonte-light);
+    margin-bottom: 2em;
     line-height: 1.5em;
+    border-bottom: 1px solid var(--cinza-bordas);
+    padding-bottom: 2.5em;
 }
 
 .mapa {
