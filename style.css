@@ -63,10 +63,6 @@ a:visited {
     text-decoration: none;
 }
 
-body {
-    width: 100%;
-}
-
 .hidden {
     opacity: 0;
     transform: translate3d(0,100px,0);
@@ -94,12 +90,4 @@ body {
 .show {
     opacity: 1;
     transform: translateZ(0);
-}
-
-.active {
-    color: var(--laranja-destaque);
-}
-
-.close {
-    color: var(--branco-secundario);
 }
