@@ -47,6 +47,8 @@
     --branco-bordas: #ced4da;
     --cinza-placeholder: #495057;
     --cinza-bordas: #efebeb;
+    --cinza-popup: #6C757D;
+    --fundo-popup: #212529;
 }
 
 html {
@@ -59,4 +61,8 @@ a:link {
 
 a:visited {
     text-decoration: none;
+}
+
+body {
+    width: 100%;
 }

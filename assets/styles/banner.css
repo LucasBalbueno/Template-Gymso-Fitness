@@ -5,7 +5,8 @@
     background-size: cover;      /*PARA A IMAGEM DE FUNDO CABER DENTRO DA SECTION E NÃO FICAR COM ESPAÇOS EM BRANCO NA VOLTA*/
     background-position: top;    /*CENTRALIZA A IMAGEM QUANDO A TELA MUDA DE TAMANHO*/
     background-repeat: no-repeat;
-    /* vertical-align: middle; */
+    vertical-align: middle;
+    position: relative;
 }
 
 

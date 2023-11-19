@@ -80,3 +80,9 @@
     background-image: url(../imgs/LogoInstagram-Hover.svg);
     transition: 0.4s ease;
 }
+
+@media screen and (max-width: 1024px) {
+    .cabecalho__titulo {
+        margin-right: 2em;
+    }
+}

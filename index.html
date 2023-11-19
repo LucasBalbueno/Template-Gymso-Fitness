@@ -42,7 +42,7 @@
                     <h2 class="valores__titulo">New to the gymso?</h2>
                     <h3 class="valores__texto">Your membership is up to 2 months FREE<br>($62.50 per month)</h3>
                     <p class="valores__texto__link">Gymso is free HTML template by <a class="link__tooplate" rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a> for your<br>commercial website. Bootstrap v4.2.1 Layout. Feel<br>free to use it.</p>
-                    <a href="#" class="valores__botao" >BECOME A MEMBER TODAY</a>
+                    <button class="valores__botao" id="botaoOpen" >BECOME A MEMBER TODAY</button>
                 </div>
             
                 <div class="horarios">
@@ -57,6 +57,24 @@
                         <p class="horarios__horas">6:00 AM - 4:00 PM</p>
                     </div>
                 </div>
+
+                <dialog class="pop-up__box" id="modal">
+                    <div>
+                        <form class="formularios">
+                            <div class="formulario__close">
+                            <label class="popup__titulo">Membership Form</label>
+                            <button class="popup__x" id="botaoClose">x</button>
+                            </div>
+                            <input class="popup__formulario" type="text" placeholder="John Doe">
+                            <input class="popup__formulario" type="email" placeholder="johndoe@gmail.com">
+                            <input class="popup__formulario" type="number" placeholder="123-456-7890">
+                            <textarea class="popup__formulario" rows="5" placeholder="Additional Message"></textarea>
+                            <button class="popup__botao" type="submit">Submit Button</button>
+                            <p class="popup_condicoes"><input type="checkbox">I agree to the <a class="condicoes__link" href="#">Terms &Conditions</a></p>
+                        </form>
+                    </div>
+                </dialog>
+
         </section>
 
         <section class="sobre__nos" id="about-us">
@@ -281,7 +299,7 @@
         </section>
     </main>
 
-    <footer class="rodape">
+    <footer class="rodape" id="last-One">
         <div class="rodape__direitos">
             <p class="direitos__texto">Copyright © 2020 Gymso Fitness Co.</p>
             <p class="direitos__texto">Design: Tooplate</p>
@@ -291,5 +309,7 @@
             <img class="contato__imagem" src="./assets/imgs/TelefoneIcon.svg" alt="Icone Numero"><p class="contato__texto">010-020-0840</p>
         </div>
     </footer>
+    <script type="text/javascript" src="./scripts/script.js"></script>
+    <script type="text/javascript" src="./scripts/popup.js"></script>
  </body>
 </html>
