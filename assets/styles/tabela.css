@@ -86,14 +86,17 @@
 }
 
 @media screen and (max-width: 900px) {
-    .tabela__quadro__horario {
+    .tabela__responsivo {
         width: 100%;
-        overflow-x: scroll;
+        overflow: scroll;
         -webkit-overflow-scrolling: touch;
+    }
+    
+    .titulo__tabela {
+        font-size: 32px;
     }
 
     .container__tabela {
-        display: none;
+        padding: 8em 1em;
     }
-    
 }
