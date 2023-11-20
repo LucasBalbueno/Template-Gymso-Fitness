@@ -7,6 +7,10 @@
 
 .rodape__contato {
     display: flex;
+}
+
+.rodape__info {
+    display: flex;
     align-items: center;
 }
 
@@ -26,5 +30,18 @@
 @media screen and (max-width: 1024px) {
     .rodape {
         padding: 4em 7em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .rodape {
+        flex-direction: column;
+        padding: 4em 2em;
+        text-align: center;
+    }
+
+    .rodape__contato {
+        margin-top: 1em;
+        justify-content: center;
     }
 }

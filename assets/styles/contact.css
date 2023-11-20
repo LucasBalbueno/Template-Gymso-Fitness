@@ -90,3 +90,28 @@
         line-height: 1.2em;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .container__contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mapa {
+        width: 22em;
+        height: 15em;
+    }
+
+    .informacoes__formulario {
+        width: 24em;
+    }
+
+    .informacoes__botao {
+        width: 22em;
+    }
+
+    .contact__titulo{
+        line-height: 1.2em;
+        font-size: 32px;
+    }
+}

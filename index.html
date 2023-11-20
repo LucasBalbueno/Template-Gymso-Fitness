@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gymso Fitness</title>
     <link rel="stylesheet" href="./style.css">
 </head>
- <body>
+
+<body>
     <header class="cabecalho">
-        <a class="cabecalho__titulo" href="./index.html">Gymso Fitness</a>
+        <div class="menu__responsivo">
+            <a class="cabecalho__titulo" href="./index.html">Gymso Fitness</a>
+            <button class="cabecalho__menu-hamburguer"><img src="./assets/imgs/BarraMenu-Hamburguer.svg"><img src="./assets/imgs/BarraMenu-Hamburguer.svg"><img src="./assets/imgs/BarraMenu-Hamburguer.svg"></button>
+            <!-- <nav>
+                <ul class="menu__lista__hamburguer">
+                    <li><a href="#home" class="menu__link__hamburgue">home</a></li>
+                    <li><a href="#about-us" class="menu__link__hamburgue">about us</a></li>
+                    <li><a href="#classes" class="menu__link__hamburgue">classes</a></li>
+                    <li><a href="#schedules" class="menu__link__hamburgue">schedules</a></li>
+                    <li><a href="#contact" class="menu__link__hamburgue">contact</a></li>
+                </ul>
+            </nav> -->
+        </div>
         <nav>
             <ul class="menu__lista">
                 <li><a href="#home" class="menu__link">home</a></li>
@@ -37,92 +51,100 @@
             </div>
         </section>
 
-        <section class="valores__horarios" >
-                <div class="valores">
-                    <h2 class="valores__titulo hidden">New to the gymso?</h2>
-                    <h3 class="valores__texto hidden">Your membership is up to 2 months FREE<br>($62.50 per month)</h3>
-                    <p class="valores__texto__link hidden3">Gymso is free HTML template by <a class="link__tooplate" rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a> for your<br>commercial website. Bootstrap v4.2.1 Layout. Feel<br>free to use it.</p>
-                    <button class="valores__botao hidden" id="botaoOpen" >BECOME A MEMBER TODAY</button>
-                </div>
-            
-                <div class="horarios">
-                    <h2 class="horarios__titulo hidden2">Working hours</h2>
-                    <h3 class="horarios__dias hidden2" >Sunday: closed</h3>
-                    <div class="horarios__descricao">
-                        <h3 class="horarios__dias hidden2">Monday - Friday</h3>
-                        <p class="horarios__horas hidden4">7:00 AM - 10:00 AM</p>
-                    </div>
-                    <div>
-                        <h3 class="horarios__dias hidden2">Saturday</h3>
-                        <p class="horarios__horas hidden4">6:00 AM - 4:00 PM</p>
-                    </div>
-                </div>
+        <section class="valores__horarios">
+            <div class="valores">
+                <h2 class="valores__titulo hidden">New to the gymso?</h2>
+                <h3 class="valores__texto hidden">Your membership is up to 2 months FREE<br>($62.50 per month)</h3>
+                <p class="valores__texto__link hidden3">Gymso is free HTML template by <a class="link__tooplate"
+                        rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a> for
+                    your<br>commercial website. Bootstrap v4.2.1 Layout. Feel<br>free to use it.</p>
+                <button class="valores__botao hidden" id="botaoOpen">BECOME A MEMBER TODAY</button>
+            </div>
 
-                <dialog class="pop-up__box hidden" id="modal">
-                    <div>
-                        <form class="formularios">
-                            <div class="formulario__close">
+            <div class="horarios">
+                <h2 class="horarios__titulo hidden2">Working hours</h2>
+                <h3 class="horarios__dias hidden2">Sunday: closed</h3>
+                <div class="horarios__descricao">
+                    <h3 class="horarios__dias hidden2">Monday - Friday</h3>
+                    <p class="horarios__horas hidden4">7:00 AM - 10:00 AM</p>
+                </div>
+                <div>
+                    <h3 class="horarios__dias hidden2">Saturday</h3>
+                    <p class="horarios__horas hidden4">6:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+
+            <dialog class="pop-up__box hidden" id="modal">
+                <div>
+                    <form class="formularios">
+                        <div class="formulario__close">
                             <label class="popup__titulo">Membership Form</label>
                             <button class="popup__x" id="botaoClose">x</button>
-                            </div>
-                            <input class="popup__formulario" type="text" placeholder="John Doe">
-                            <input class="popup__formulario" type="email" placeholder="johndoe@gmail.com">
-                            <input class="popup__formulario" type="number" placeholder="123-456-7890">
-                            <textarea class="popup__formulario" rows="5" placeholder="Additional Message"></textarea>
-                            <button class="popup__botao" type="submit">Submit Button</button>
-                            <p class="popup_condicoes"><input type="checkbox">I agree to the <a class="condicoes__link" href="#">Terms &Conditions</a></p>
-                        </form>
-                    </div>
-                </dialog>
+                        </div>
+                        <input class="popup__formulario" type="text" placeholder="John Doe">
+                        <input class="popup__formulario" type="email" placeholder="johndoe@gmail.com">
+                        <input class="popup__formulario" type="number" placeholder="123-456-7890">
+                        <textarea class="popup__formulario" rows="5" placeholder="Additional Message"></textarea>
+                        <button class="popup__botao" type="submit">Submit Button</button>
+                        <p class="popup_condicoes"><input type="checkbox">I agree to the <a class="condicoes__link"
+                                href="#">Terms &Conditions</a></p>
+                    </form>
+                </div>
+            </dialog>
 
         </section>
 
         <section class="sobre__nos" id="about-us">
-                    <div class="texto__sobre__nos">
-                        <h2 class="sobre__nos__titulo hidden2">Hello, we are Gymso</h2>
-                        <p class="sobre__nos__texto hidden3">You are NOT allowed to redistribute this HTML template downloadable ZIP file
-                            on any template collection site. You are allowed to use this template for your personal or business websites.</p>
-                            <br>
-                        <p class="sobre__nos__texto hidden4">If you have any question regarding <a class="sobre__nos__link" rel="nofollow" href="https://www.tooplate.com/view/2119-gymso-fitness" target="_parent">Gymso Fitness HTML template</a>, you can <a class="sobre__nos__link" rel="nofollow" href="https://www.tooplate.com/contact" 
-                            target="_parent">contact Tooplate</a> immediately. Thank you.</p>
-                    </div>
-                    
-                    <div class="container__instrutores">
-                        <div class="instrutor hidden2">
-                            <img class="instrutor__imagem" src="./assets/imgs/team/team-image.jpg" alt="Imagem Mary Yan">
-                            <div class="instrutor__box">
-                                <div class="instrutor__descricao">
-                                    <h2 class="instrutor__titulo">Mary Yan</h2>
-                                    <p class="instrutor__texto">Yoga Instructor</p>
-                                </div>
-                                <div class="instrutor_redes-sociais">
-                                    <li class="rede-social__item"><a href="#" class="instrutor__twitter"></a></li>
-                                    <li class="rede-social__item"><a href="#" class="instrutor__instagram"></a></li>
-                                </div>
-                            </div>
+            <div class="texto__sobre__nos">
+                <h2 class="sobre__nos__titulo hidden2">Hello, we are Gymso</h2>
+                <p class="sobre__nos__texto hidden3">You are NOT allowed to redistribute this HTML template downloadable
+                    ZIP file
+                    on any template collection site. You are allowed to use this template for your personal or business
+                    websites.</p>
+                <br>
+                <p class="sobre__nos__texto hidden4">If you have any question regarding <a class="sobre__nos__link"
+                        rel="nofollow" href="https://www.tooplate.com/view/2119-gymso-fitness" target="_parent">Gymso
+                        Fitness HTML template</a>, you can <a class="sobre__nos__link" rel="nofollow"
+                        href="https://www.tooplate.com/contact" target="_parent">contact Tooplate</a> immediately. Thank
+                    you.</p>
+            </div>
+
+            <div class="container__instrutores">
+                <div class="instrutor hidden2">
+                    <img class="instrutor__imagem" src="./assets/imgs/team/team-image.jpg" alt="Imagem Mary Yan">
+                    <div class="instrutor__box">
+                        <div class="instrutor__descricao">
+                            <h2 class="instrutor__titulo">Mary Yan</h2>
+                            <p class="instrutor__texto">Yoga Instructor</p>
                         </div>
-                        <div class="instrutor hidden3">
-                            <img class="instrutor__imagem" src="./assets/imgs/team/team-image01.jpg" alt="Imagem Mary Yan">
-                            <div class="instrutor__box">
-                                <div class="instrutor__descricao">
-                                    <h2 class="instrutor__titulo">Catherina</h2>
-                                    <p class="instrutor__texto">Body trainer</p>
-                                </div>
-                                <div class="instrutor_redes-sociais">
-                                    <li class="rede-social__item"><a href="#" class="instrutor__twitter"></a></li>
-                                    <li class="rede-social__item"><a href="#" class="instrutor__instagram"></a></li>
-                                </div>
-                            </div>
+                        <div class="instrutor_redes-sociais">
+                            <li class="rede-social__item"><a href="#" class="instrutor__twitter"></a></li>
+                            <li class="rede-social__item"><a href="#" class="instrutor__instagram"></a></li>
                         </div>
                     </div>
-        </section> 
+                </div>
+                <div class="instrutor hidden3">
+                    <img class="instrutor__imagem" src="./assets/imgs/team/team-image01.jpg" alt="Imagem Mary Yan">
+                    <div class="instrutor__box">
+                        <div class="instrutor__descricao">
+                            <h2 class="instrutor__titulo">Catherina</h2>
+                            <p class="instrutor__texto">Body trainer</p>
+                        </div>
+                        <div class="instrutor_redes-sociais">
+                            <li class="rede-social__item"><a href="#" class="instrutor__twitter"></a></li>
+                            <li class="rede-social__item"><a href="#" class="instrutor__instagram"></a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="container__classes" id="classes">
             <div class="classes__titulo">
                 <h2 class="titulo__menor hidden">Get A Perfect Body</h2>
                 <h1 class="titulo__maior hidden">Our Training Classes</h1>
             </div>
-            
+
             <div class="container__cards">
                 <div class="classes__cards  hidden2">
                     <img class="card__imagem" src="./assets/imgs/class/yoga-class.jpg" alt="Imagem Aula de Yoga">
@@ -130,7 +152,8 @@
                         <div class="card__titulos__preco">
                             <div class="card__titulos">
                                 <h1 class="card__titulo">Yoga</h1>
-                                <h3 class="subtitulo">Trained by <strong class="subtitulo-instrutor">- Bella</strong></h3>
+                                <h3 class="subtitulo">Trained by <strong class="subtitulo-instrutor">- Bella</strong>
+                                </h3>
                             </div>
                             <div class="card__preco">$50</div>
                         </div>
@@ -144,7 +167,8 @@
                         <div class="card__titulos__preco">
                             <div class="card__titulos">
                                 <h1 class="card__titulo">Areobic</h1>
-                                <h3 class="subtitulo">Trained by <strong class="subtitulo-instrutor">- Mary</strong></h3>
+                                <h3 class="subtitulo">Trained by <strong class="subtitulo-instrutor">- Mary</strong>
+                                </h3>
                             </div>
                             <div class="card__preco">$66</div>
                         </div>
@@ -158,7 +182,8 @@
                         <div class="card__titulos__preco">
                             <div class="card__titulos">
                                 <h1 class="card__titulo">Cardio</h1>
-                                <h3 class="subtitulo">Trained by <strong class="subtitulo-instrutor">- Cathe</strong></h3>
+                                <h3 class="subtitulo">Trained by <strong class="subtitulo-instrutor">- Cathe</strong>
+                                </h3>
                             </div>
                             <div class="card__preco">$75</div>
                         </div>
@@ -169,116 +194,114 @@
         </section>
 
         <section class="container__tabela" id="schedules">
-            <div>    
+            <div>
                 <h3 class="subtitulo__tabela hidden">our weekly GYM schedules</h3>
                 <h1 class="titulo__tabela hidden2">Workout Timetable</h1>
             </div>
-            <div>
-                <table class="tabela__quadro__horario hidden3">
-                    <thead>
-                        <tr>
-                            <!-- <th class="tabela__dias"><img class="calendario" src="./assets/imgs/CalendarioIcon.svg" alt="Calendario Icone"></th> -->
-                            <th class="tabela__dias calendario"></th>
-                            <th class="tabela__dias">Mon</th>
-                            <th class="tabela__dias">Tue</th>
-                            <th class="tabela__dias">Wed</th>
-                            <th class="tabela__dias">Thu</th>
-                            <th class="tabela__dias">Fri</th>
-                            <th class="tabela__dias">Sat</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                        <tr>
-                            <td class="tabela__horario__vertical">
-                                <small class="tabela__horario">7:00 AM</small>
-                            </td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Cardio</strong> <br>
-                                <span class="tabela__horario_aulas">7:00 AM - 9:00 AM</span>
-                            </td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Power Fitness</strong> <br>
-                                <span class="tabela__horario_aulas">7:00 AM - 9:00 AM</span>
-                            </td>
-                            <td class="tabela__corpo"></td>
-                            <td class="tabela__corpo"></td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Yoga Section</strong> <br>
-                                <span class="tabela__horario_aulas">7:00 AM - 9:00 AM</span>
-                            </td>
-                            <td class="tabela__corpo corpo__borda"></td>
-                            
-                        </tr>
 
-                        <tr>
-                            <td class="tabela__horario__vertical">
-                                <small class="tabela__horario">9:00 AM</small>
-                            </td>
-                            <td class="tabela__corpo"></td>
-                            <td class="tabela__corpo"></td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Boxing</strong> <br>
-                                <span class="tabela__horario_aulas">8:00 AM - 9:00 AM</span>
-                            </td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Areobic</strong> <br>
-                                <span class="tabela__horario_aulas">8:00 AM - 9:00 AM</span>
-                            </td>
-                            <td class="tabela__corpo"></td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Cardio</strong> <br>
-                                <span class="tabela__horario_aulas">8:00 AM - 9:00 AM</span>                                
-                            </td>
-                        </tr>
+            <table class="tabela__quadro__horario hidden3">
+                <thead>
+                    <tr>
+                        <!-- <th class="tabela__dias"><img class="calendario" src="./assets/imgs/CalendarioIcon.svg" alt="Calendario Icone"></th> -->
+                        <th class="tabela__dias calendario"></th>
+                        <th class="tabela__dias">Mon</th>
+                        <th class="tabela__dias">Tue</th>
+                        <th class="tabela__dias">Wed</th>
+                        <th class="tabela__dias">Thu</th>
+                        <th class="tabela__dias">Fri</th>
+                        <th class="tabela__dias">Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tabela__horario__vertical">
+                            <small class="tabela__horario">7:00 AM</small>
+                        </td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Cardio</strong> <br>
+                            <span class="tabela__horario_aulas">7:00 AM - 9:00 AM</span>
+                        </td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Power Fitness</strong> <br>
+                            <span class="tabela__horario_aulas">7:00 AM - 9:00 AM</span>
+                        </td>
+                        <td class="tabela__corpo"></td>
+                        <td class="tabela__corpo"></td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Yoga Section</strong> <br>
+                            <span class="tabela__horario_aulas">7:00 AM - 9:00 AM</span>
+                        </td>
+                        <td class="tabela__corpo corpo__borda"></td>
 
-                        <tr>
-                            <td class="tabela__horario__vertical">
-                                <small class="tabela__horario">11:00 am</small>
-                            </td>
-                            <td class="tabela__corpo"></td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Boxing</strong> <br>
-                                <span class="tabela__horario_aulas">11:00 am - 2:00 pm</span>
-                            </td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Areobic</strong> <br>
-                                <span class="tabela__horario_aulas">11:30 am - 3:30 pm</span>
-                            </td>
-                            <td class="tabela__corpo"></td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Body work</strong> <br>
-                                <span class="tabela__horario_aulas">11:50 am - 5:20 pm</span>
-                            </td>
-                            
-                        </tr>
+                    </tr>
 
-                        <tr>
-                            <td class="tabela__horario__vertical">
-                                <small class="tabela__horario">2:00 PM</small>
-                            </td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Boxing</strong> <br>
-                                <span class="tabela__horario_aulas">2:00 PM - 4:00 PM</span>
-                            </td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Power Lifting</strong> <br>
-                                <span class="tabela__horario_aulas">3:00 PM - 6:00 PM</span>
-                            </td>
-                            <td class="tabela__corpo"></td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Cardio</strong> <br>
-                                <span class="tabela__horario_aulas">6:00 PM - 9:00 PM</span>
-                            </td>
-                            <td class="tabela__corpo"></td>
-                            <td class="tabela__corpo">
-                                <strong class="tabela__nome__atividade">Crossfit</strong> <br>
-                                <span class="tabela__horario_aulas">5:00 PM - 7:00 PM</span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                    <tr>
+                        <td class="tabela__horario__vertical">
+                            <small class="tabela__horario">9:00 AM</small>
+                        </td>
+                        <td class="tabela__corpo"></td>
+                        <td class="tabela__corpo"></td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Boxing</strong> <br>
+                            <span class="tabela__horario_aulas">8:00 AM - 9:00 AM</span>
+                        </td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Areobic</strong> <br>
+                            <span class="tabela__horario_aulas">8:00 AM - 9:00 AM</span>
+                        </td>
+                        <td class="tabela__corpo"></td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Cardio</strong> <br>
+                            <span class="tabela__horario_aulas">8:00 AM - 9:00 AM</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="tabela__horario__vertical">
+                            <small class="tabela__horario">11:00 am</small>
+                        </td>
+                        <td class="tabela__corpo"></td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Boxing</strong> <br>
+                            <span class="tabela__horario_aulas">11:00 am - 2:00 pm</span>
+                        </td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Areobic</strong> <br>
+                            <span class="tabela__horario_aulas">11:30 am - 3:30 pm</span>
+                        </td>
+                        <td class="tabela__corpo"></td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Body work</strong> <br>
+                            <span class="tabela__horario_aulas">11:50 am - 5:20 pm</span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="tabela__horario__vertical">
+                            <small class="tabela__horario">2:00 PM</small>
+                        </td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Boxing</strong> <br>
+                            <span class="tabela__horario_aulas">2:00 PM - 4:00 PM</span>
+                        </td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Power Lifting</strong> <br>
+                            <span class="tabela__horario_aulas">3:00 PM - 6:00 PM</span>
+                        </td>
+                        <td class="tabela__corpo"></td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Cardio</strong> <br>
+                            <span class="tabela__horario_aulas">6:00 PM - 9:00 PM</span>
+                        </td>
+                        <td class="tabela__corpo"></td>
+                        <td class="tabela__corpo">
+                            <strong class="tabela__nome__atividade">Crossfit</strong> <br>
+                            <span class="tabela__horario_aulas">5:00 PM - 7:00 PM</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <section class="container__contact" id="contact">
@@ -287,14 +310,18 @@
                 <form class="hidden2">
                     <input class="informacoes__formulario" type="text" name="nome" placeholder="Name">
                     <input class="informacoes__formulario" type="email" name="email" placeholder="Email">
-                    <textarea class="informacoes__formulario name="message" rows="5" placeholder="Message"></textarea>
+                    <textarea class="informacoes__formulario name=" message" rows="5" placeholder="Message"></textarea>
                     <button class="informacoes__botao" type="submit">Send Message</button>
                 </form>
             </div>
             <div class="contact__mapa">
                 <h1 class="contact__titulo hidden">Where you can find us</h1>
-                <p class="mapa__texto hidden"><img class="contact__local-icon" src="./assets/imgs/LocalIcon.svg" alt="Icone de Localização">120-240 Rio de Janeiro - State of Rio de Janeiro, Brazil</p>
-                <iframe class="mapa hidden2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7917771862517!2d-51.22146782355735!3d-30.04283103120324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1699999249354!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="mapa__texto hidden"><img class="contact__local-icon" src="./assets/imgs/LocalIcon.svg"
+                        alt="Icone de Localização">120-240 Rio de Janeiro - State of Rio de Janeiro, Brazil</p>
+                <iframe class="mapa hidden2"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7917771862517!2d-51.22146782355735!3d-30.04283103120324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1699999249354!5m2!1spt-BR!2sbr"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
@@ -305,11 +332,18 @@
             <p class="direitos__texto">Design: Tooplate</p>
         </div>
         <div class="rodape__contato">
-            <img class="contato__imagem" src="./assets/imgs/EmailIcon.svg" alt="Icone Email"><p class="contato__texto">hello@company.co</p>
-            <img class="contato__imagem" src="./assets/imgs/TelefoneIcon.svg" alt="Icone Numero"><p class="contato__texto">010-020-0840</p>
+            <div class="rodape__info">
+                <img class="contato__imagem" src="./assets/imgs/EmailIcon.svg" alt="Icone Email">
+                <p class="contato__texto">hello@company.co</p>
+            </div>
+            <div class="rodape__info">
+                <img class="contato__imagem" src="./assets/imgs/TelefoneIcon.svg" alt="Icone Numero">
+                <p class="contato__texto">010-020-0840</p>
+            </div>
         </div>
     </footer>
     <script type="text/javascript" src="./scripts/script.js"></script>
     <script type="text/javascript" src="./scripts/popup.js"></script>
- </body>
+</body>
+
 </html>

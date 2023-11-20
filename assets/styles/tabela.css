@@ -84,3 +84,16 @@
         padding: 8em 2.5em;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .tabela__quadro__horario {
+        width: 100%;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .container__tabela {
+        display: none;
+    }
+    
+}

@@ -102,3 +102,21 @@
         padding: 5em 0;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .container__cards {
+        flex-direction: column;
+    }
+
+    .card__imagem {
+        width: 23em;
+    }
+    
+    .classes__card__box {
+        width: 20em;
+    }
+    
+    .titulo__maior {
+        font-size: 34px;
+    }
+}

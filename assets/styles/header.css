@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 1.5em 0;
-     position: fixed;
+    position: fixed;
     z-index: 10; 
     width: 100vw;
 }
@@ -59,6 +59,10 @@
     background-image: url(../imgs/LogoInstagram.svg);
 }
 
+.cabecalho__menu-hamburguer {
+    display: none;
+}
+
 
 /*HEADER - HOVERS*/
 .cabecalho__titulo:hover, .menu__link:hover {
@@ -84,5 +88,37 @@
 @media screen and (max-width: 1024px) {
     .cabecalho__titulo {
         margin-right: 2em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu__lista, .menu__rede-social {
+        display: none;
+    }
+
+    .cabecalho__titulo {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .cabecalho {
+        display: block;
+        padding: 1.5em 2em;
+    }
+
+    .menu__responsivo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: flex;
+        gap: 6px;
+        flex-direction: column;
+        width: 40px;
+        margin-right: 4.5em;
+        background: transparent;
+        border: none;
     }
 }

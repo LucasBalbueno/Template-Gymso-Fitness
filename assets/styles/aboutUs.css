@@ -119,3 +119,27 @@
         margin-right: 5em;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .sobre__nos {
+        flex-direction: column;
+        padding: 5em 1em;
+    }
+
+    .texto__sobre__nos {
+        justify-content: center;
+        margin: 0 0 2.5em 0;
+    }
+
+    .container__instrutores{
+        flex-direction: column;
+    }
+
+    .instrutor__imagem{
+        width: 22em;
+    }
+    
+    .instrutor__box{
+        width: 19.5em;
+    }
+}
