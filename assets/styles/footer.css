@@ -22,3 +22,9 @@
     height: 13px;
     margin-right: 0.5em;
 }
+
+@media screen and (max-width: 1024px) {
+    .rodape {
+        padding: 4em 7em;
+    }
+}

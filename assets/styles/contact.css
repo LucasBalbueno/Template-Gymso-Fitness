@@ -66,3 +66,27 @@
     background-color: var(--laranja-destaque);
     transition: 0.4s ease;
 }
+
+@media screen and (max-width: 1024px) {
+    .container__contact {
+        gap: 3em;
+        padding: 6em;
+    }
+
+    .mapa {
+        width: 25em;
+        height: 15em;
+    }
+
+    .informacoes__formulario {
+        width: 28em;
+    }
+
+    .informacoes__botao {
+        width: 25em;
+    }
+
+    .contact__titulo{
+        line-height: 1.2em;
+    }
+}

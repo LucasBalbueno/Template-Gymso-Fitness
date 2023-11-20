@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6em;
+    padding: 6em 25em;
 }
 
 .texto__sobre__nos{
@@ -99,12 +99,23 @@
 
 
 @media screen and (max-width:1024px) {
-
     .instrutor__imagem{
         width: 12em;
     }
     
     .instrutor__box{
         width: 9.5em;
+    }
+
+    .sobre__nos {
+        padding: 5em;
+    }
+
+    .sobre__nos__titulo {
+        font-size: 32px;
+    }
+
+    .texto__sobre__nos{
+        margin-right: 5em;
     }
 }
