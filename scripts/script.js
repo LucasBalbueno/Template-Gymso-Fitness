@@ -11,3 +11,5 @@ const myObserver = new IntersectionObserver((entries) => {
 const elements = document.querySelectorAll('.hidden, .hidden2, .hidden3, .hidden4')
 
 elements.forEach((element) => myObserver.observe(element))
+
+window.addEventListener('scroll', (event) => {console.log(event)})
