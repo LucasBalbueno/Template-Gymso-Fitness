@@ -1,17 +1,13 @@
-/*BANNER - BACKGROUND IMAGEM*/
 .banner {
     background-image: url(../imgs/hero-bg.jpg);
-    height:100vh ;   /*A FUNÇÃO CALC() SERVE PARA O HEADER NÃO OCUPAR O ESPAÇO DA TELA, EMPURRANDO A IMAGEM PARA BAIO*/
-    background-size: cover;      /*PARA A IMAGEM DE FUNDO CABER DENTRO DA SECTION E NÃO FICAR COM ESPAÇOS EM BRANCO NA VOLTA*/
-    background-position: top;    /*CENTRALIZA A IMAGEM QUANDO A TELA MUDA DE TAMANHO*/
+    height:100vh ;
+    background-size: cover; 
+    background-position: top;
     background-repeat: no-repeat;
     vertical-align: middle;
     position: relative;
-    width: 100vw;
 }
 
-
-/*BANNER - BACKGROUND FILTRO*/
 .banner__filtro {
     background-color: var(--preto-principal);
     height: 100vh;
@@ -22,8 +18,6 @@
     justify-content: center;
 }
 
-
-/*BANNER - TEXTOS*/
 .banner__texto{
     font-family: var(--fonte-regular);
     color: var(--cinza-texto);
@@ -39,8 +33,6 @@
     line-height: 1.3em;
 }
 
-
-/*BANNER - BOTÕES*/
 .banner__botoes-secundario, .banner__botoes-principal{
     font-family: var(--fonte-light);
     color: var(--branco-secundario);
@@ -56,7 +48,6 @@
     margin-left: 1em;
 }
 
-/*BANNER - HOVERS*/
 .banner__botoes-secundario:hover {
     color: var(--laranja-destaque);
     transition: 0.4s ease;

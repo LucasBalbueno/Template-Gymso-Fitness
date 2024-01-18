@@ -16,8 +16,6 @@
     margin-right: 8em;
 }
 
-
-/*HEADER - MENU DE NAVEGAÇÃO*/
 .menu__lista {
     display: flex;
     margin-right: 2em;
@@ -32,19 +30,17 @@
     padding: 1em 1.5em;
 }
 
-
-/*HEADER - REDES SOCIAIS*/
 .menu__rede-social{
     display: flex;
     gap: 20px;
 }
 
 .rede-social__icon {
-    background-position: center;          /*CENTRALIZAR OS ICONES NA VERTICAL*/
-    background-repeat: no-repeat;         /*NÃO REPETIR O BACKGROUND*/
+    background-position: center;
+    background-repeat: no-repeat;
     height: 18px;
     width: 18px;
-    display: inline-block;                /*FICAR EM UMA NOVA LINHA E SOFRER AJUSTE DE ALTURA E LARGURA*/
+    display: inline-block;
 }
 
 .facebook {
@@ -63,8 +59,6 @@
     display: none;
 }
 
-
-/*HEADER - HOVERS*/
 .cabecalho__titulo:hover, .menu__link:hover {
     color: var(--laranja-destaque);
     transition: 0.4s ease;
@@ -92,8 +86,6 @@
 .menu__rede-social__responsivo {
     display: none;
 }
-
-
 
 @media screen and (max-width: 1024px) {
     .cabecalho__titulo {
